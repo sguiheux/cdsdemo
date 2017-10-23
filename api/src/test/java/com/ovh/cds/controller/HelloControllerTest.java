@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class HelloControllerTest {
 
     @Test
-    public void sayHelloTest() {
+    public void TestSayHelloTests() {
         HelloController hc = new HelloController();
         ResponseHello r = hc.sayHello("cds");
         Assertions.assertEquals("cds", r.getHello());
