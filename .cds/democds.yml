@@ -1,4 +1,10 @@
 name: democds
 version: v1.0
-pipeline: build
-application: demoapp
+workflow:
+  build:
+    depends_on: build2
+    pipeline: build
+    application: demoapp
+  build2:
+    pipeline: build2
+    application: demoapp
