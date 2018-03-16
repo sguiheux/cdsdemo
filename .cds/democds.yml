@@ -1,4 +1,0 @@
-name: democds
-version: v1.0
-pipeline: build
-application: demoapp

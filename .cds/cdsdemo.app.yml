@@ -1,0 +1,14 @@
+version: v1.0
+name: cdsdemo
+vcs_server: github
+repo: sguiheux/cdsdemo
+keys:
+  app-pgp-github:
+    type: pgp
+    value: 8618b43fb37d4a18a0ac9cd5681ab953
+  app-ssh-github:
+    type: ssh
+    value: 7521ecc80a8846ce97a9e83751bc383a
+vcs_branch: '{{.git.branch}}'
+vcs_default_branch: master
+vcs_pgp_key: app-pgp-github
