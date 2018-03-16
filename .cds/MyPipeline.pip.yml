@@ -1,8 +1,0 @@
-version: v1.0
-name: MyPipeline
-jobs:
-- job: First job
-  steps:
-  - checkout: '{{.cds.workspace}}'
-  requirements:
-  - binary: git
