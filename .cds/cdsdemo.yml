@@ -1,13 +1,8 @@
 name: cdsdemo
 version: v1.0
-pipeline: MyPipeline
-payload:
-  git.author: ""
-  git.branch: ""
-  git.hash: ""
-  git.hash.before: ""
-  git.message: ""
-  git.repository: sguiheux/cdsdemo
+pipeline: build
 application: cdsdemo
 pipeline_hooks:
 - type: RepositoryWebHook
+metadata:
+  default_tags: git.branch,git.author

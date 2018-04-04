@@ -1,5 +1,5 @@
 version: v1.0
-name: MyPipeline
+name: build
 jobs:
 - job: First job
   steps:
