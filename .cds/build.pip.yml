@@ -4,5 +4,6 @@ jobs:
 - job: First job
   steps:
   - checkout: '{{.cds.workspace}}'
+  - script: ls
   requirements:
   - binary: git
