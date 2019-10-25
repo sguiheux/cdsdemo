@@ -1,0 +1,8 @@
+name: httpGithub
+version: v1.0
+pipeline: pip
+application: httpGithub
+metadata:
+  default_tags: git.branch,git.author
+notify:
+- type: vcs
