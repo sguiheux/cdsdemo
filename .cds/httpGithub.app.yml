@@ -1,0 +1,7 @@
+version: v1.0
+name: httpGithub
+vcs_server: github
+repo: sguiheux/cdsdemo
+vcs_connection_type: https
+vcs_user: sguiheux
+vcs_password: 65f0ad93af9c4ef7a4d192e899a70ba5
